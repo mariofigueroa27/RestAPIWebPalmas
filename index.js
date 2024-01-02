@@ -29,7 +29,7 @@ app.get('/api/SabanaReportes', async (req, res) => {
       res.json(result.recordset);
     } catch (err) {
       console.error('Error al obtener datos:', err.message);
-      res.status(500).send('Error interno del servidor');
+      print(res.status)
     }
   });
 
