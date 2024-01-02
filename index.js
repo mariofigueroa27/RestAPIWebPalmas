@@ -45,6 +45,8 @@ app.get('/api/ReporteIndicadores', async (req, res) => {
       // Enviar los datos como respuesta
       res.json(result.recordset);
     } catch (err) {
+      print(res.status)
+      print(error)
       console.error('Error al obtener datos:', err.message);
       res.status(500).send('Error interno del servidor');
     }
