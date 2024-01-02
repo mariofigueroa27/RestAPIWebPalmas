@@ -11,9 +11,6 @@ const config = {
     password: 'M7Z5jn5JBD6A',
     server: 'asasrv0100.database.windows.net',
     database: 'asabd0100',
-    options: {
-      encrypt: true, // Para habilitar la encriptación
-    },
 };
 
 //API REPORTES Y SABANAS
